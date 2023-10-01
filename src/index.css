@@ -27,7 +27,6 @@ code {
   flex-grow: 4;
   max-width: 500px;
   border: 5px solid #e68fa4;
-  background-color: red;
 }
 
 /*Header*/
@@ -161,7 +160,8 @@ ul{
 
 .Edit form input{
   min-height: 15vh;
-  min-width: 50vw;
+  max-width: 20vw;
+  min-width: 25vw;
 }
 
 .Edit form button{

@@ -80,7 +80,6 @@ const handleSubmit = (e) => {
             search={search}
             setSearch = {setSearch} />}/>
           <Route path="edit" element={<Edit items={items} editPost={editPost} setEditPost={setEditPost} handleEdit={handleEdit}/>}/>
-          <Route path=":id" element={<Edit items={items} editPost={editPost} setEditPost={setEditPost} handleEdit={handleEdit}/>}/>
           <Route path="*" element={<Missing />}/>
         </Route>
     </Routes>
